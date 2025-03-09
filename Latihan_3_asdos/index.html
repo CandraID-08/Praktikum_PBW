@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Halaman Web Singaperbangsa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <h1>Selamat Datang di Website Singaperbangsa</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section class="content">
+            <h2>Formulir Pendaftaran</h2>
+            <p>Silahkan isi formulir di bawah untuk mendaftar.</p>
+
+            <div>
+                <label ><b>Nama Lengkap:</b></label><br>
+                <input class="input" type:"text" name:"nama"><br>
+            </div>
+            <div>
+                <label><b>Email:</b></label>
+                <input class="input" type:"Email" name:"email"><br>
+            </div>
+            <div>
+                <label><b>Password:</b></label>
+                <input class="input" type="password" name="password"><br>
+            </div>
+            <div>
+                <label><b>Jenis Kelamin:</b></label><br><br>
+                    <label class="jeniskelamin">
+                        <b>Laki-Laki</b>
+                    <input type="radio" name="Jenis_Kelamin" value="laki-laki"></label><br>
+                    <label class="jeniskelamin">
+                        <b>Perempuan</b>
+                    <input type="radio" name="Jenis_Kelamin" value="Perempuan"></label><hr><br>
+            </div>
+            <div class="hobiPendaftar">
+                <label><b>Hobi:</b></label><br><br>
+                <label class="hobi">
+                    <b>Musik</b>
+                    <input type="checkbox" name="musik">
+                </label><br>
+                <label class="hobi">
+                    <b>Olahraga</b>
+                    <input type="checkbox" name="olahraga">
+                </label><br>
+                <label class="hobi">
+                    <b>Membaca</b>
+                    <input type="checkbox" name="membaca">
+            </div><hr><br>
+            <div>
+                <label><b>Pilih Kota:</b></label><br>
+                <select class="pilihkota">
+                    <option value="1">Jakarta</option>
+                    <option value="2">Bandung</option>
+                    <option value="3">Purwakarta</option>
+                    <option value="4">Karawang</option>
+                </select>
+            </div>
+            <div>
+                <label><b>Pesan Tambahan:</b></label><br>
+                <textarea class="pesan" name="pesan" placeholder="Tulis pesan di sini . . ." style="font-family:Times New Roman"></textarea>
+            </div>
+
+            <button class="btn">kirim</button>
+        </section>
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.</p>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Halaman Web Singaperbangsa. Dibuat dengan CSS.</p>
+    </footer>
+</body>
+</html>
